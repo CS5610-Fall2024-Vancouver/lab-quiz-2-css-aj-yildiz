@@ -1,17 +1,28 @@
 /* styles.css */
 body {
     background-color: rgb(231, 225, 214);
+    margin: 20px;
+    font-family: Verdana, sans-serif;
+    color: #1050aa;
   }
+
+/* style for the h1 el */
+h1 {
+    color: #1050aa;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
 
   a.hover {
     color: #ff0000;
   }
 
 .box {
-    border: 10px ridge #ccc; /* Change #ccc to any color you prefer */
+    border: 10px ridge #f00; /* Change #ccc to any color you prefer */
     padding: 10px; /* Optional: Add some padding inside the border */
     margin: 10px;  /* Optional: Add some margin outside the border */
-    border-color: #f00;
+    border-color: #ff0;
     background-color: #ff0;
     display: flex;
     font-weight: bold;
@@ -19,7 +30,8 @@ body {
     margin: top 20px;
     margin: bottom 20px;
     flex-direction: column;
-    justify-content: center;;
+    justify-content: center;
+    color:green; 
 }
 
 .attraction-box{
@@ -32,14 +44,17 @@ body {
 
 .attraction-box h2 {
    text-align: center;
+   color:green;
 }
 
 .attraction-box h2 strong {
     font-style:italic;
+    color:green;
 }
 
 #description p::first-letter {
     font-size: 2rem;
+    color:green;
 }
 
 #description p {
@@ -54,7 +69,7 @@ ol {
     padding-left: 20px; /* Space between the list marker and the text */
     font-family: Arial, sans-serif; /* Font family for the list */
     font-size: 18px; /* Font size of the list items */
-    color: #333; /* Text color */
+    color: green; /* Text color */3
 }
 
 .attraction {
